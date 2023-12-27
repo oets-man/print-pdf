@@ -12,6 +12,7 @@
     <?php
     require_once("dompdf/autoload.inc.php");
     use Dompdf\Dompdf;
+    // sodium_crypto_kdf_keygen
 
     // Buat objek DOMPDF
     $tmp = sys_get_temp_dir();
